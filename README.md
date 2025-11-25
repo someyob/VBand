@@ -21,6 +21,6 @@ the appropriate kind of key.
 3. The feather (or Pico if that's what you're using) will want to connect to your PC as a storage device.  This doesn't hurt anything, but if you choose, there are ways to prevent that behaviour.
 4. The case in the 3mf folder was designed for my protoboard, so may not work for you.
 5. The key/paddle left and right are wired to A0 and A1, with sleeve of the jack going to ground.  Be sure to adapt the code to your wiring.
-6. The built-in LED flashes when the key is pressed.  This is an optional feature; it let's you know it's doing the business (hopefully).
+6. The built-in LED flashes when the key is pressed.  This is an optional feature; it lets you know it's doing the business (hopefully).
 
 73!
