@@ -3,6 +3,9 @@ My thanks to them for creating such a useful resource.  If you want to support t
 
 ![PXL_20251125_161237552](https://github.com/user-attachments/assets/eb60c857-1c45-4734-a13b-58c6c3f1b028)
 
+![PXL_n](https://github.com/user-attachments/assets/3f8ea57e-bf10-4858-99fc-c1a3edd5cfd0)
+
+
 My thanks also to KD8RTT at https://kd8rtt.com/2024/04/28/diy-paddle-interface-for-vband-cw-practice-website/ and
 OZ1JHM http://www.oz1jhm.dk/content/hamradio-solutions-vband-interface for the inspiration and some helpful hints.
 
