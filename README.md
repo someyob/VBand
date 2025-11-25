@@ -8,6 +8,6 @@ I built and tested this on an Adafruit Feather RP2040, just because it was capab
 You could probably also get this running on another RP2040 board, such as the Rasberry Pi Pico.
 
 A couple of provisos:
-You need to have the VBand window in focus for the keystrokes [ and ] to be transmitted to the website.
-This implementation can use either s straight key or paddle.  The jack is stereo, so either one will work if you set VBand for 
+1. You need to have the VBand window in focus for the keystrokes [ and ] to be transmitted to the website.
+2. This implementation can use either a straight key or paddle.  The jack is stereo, so either one will work if you set VBand for 
 the appropriate kind of key.
