@@ -9,11 +9,13 @@ OZ1JHM http://www.oz1jhm.dk/content/hamradio-solutions-vband-interface for the i
 I built and tested this on an Adafruit Feather RP2040, just because it was capable of running as an HID device, and I had it kicking around my parts bin with nothing better to do.  It's very overpowered for this application, but so be it.  
 You could probably also get this running on another RP2040 board, such as the Rasberry Pi Pico.
 
-It's a very trivial little program, as you will see from the src file.  CircuitPython doesn't support interrupts in a straightforward way, so I abandoned attempts to get it working that way.
+It's a very trivial little program, as you will see from the src file.  CircuitPython doesn't support interrupts in a straightforward way, so I abandoned attempts to get it working with interrupts.
 The polling method seems to work fine, but I'd be very appreciative if anyone finds any issues to let me know.
 
-A couple of provisos:
+A few provisos:
 1. You need to have the VBand window in focus for the keystrokes [ and ] to be transmitted to the website.
 2. This implementation can use either a straight key or paddle.  The jack is stereo, so either one will work if you set VBand for 
 the appropriate kind of key.
 3. The feather (or Pico if that's what you're using) will want to connect to your PC as a storage device.  This doesn't hurt anything, but if you choose, there are ways to prevent that behaviour.
+4. The case in the 3mf folder was designed for my protoboard, so may not work for you.
+5. The key/paddle left and right are wired to A0 and A1, with sleeve of the jack going to ground.  Be sure to adapt the code to your wiring.
