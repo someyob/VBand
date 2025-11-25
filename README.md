@@ -9,7 +9,7 @@ My thanks also to KD8RTT at https://kd8rtt.com/2024/04/28/diy-paddle-interface-f
 OZ1JHM http://www.oz1jhm.dk/content/hamradio-solutions-vband-interface for the inspiration and some helpful hints.
 
 I built and tested this on an Adafruit Feather RP2040, just because it was capable of running as an HID device, and I had it kicking around my parts bin with nothing better to do.  It's very overpowered for this application, but so be it.  
-You could probably also get this running on another RP2040 board, such as the Rasberry Pi Pico.
+You could probably also get this running on another RP2040 board, such as the Raspberry Pi Pico.
 
 It's a very trivial little program, as you will see from the src file.  CircuitPython doesn't support interrupts in a straightforward way, so I abandoned attempts to get it working with interrupts.
 The polling method seems to work fine, but I'd be very appreciative if anyone finds any issues to let me know.
@@ -21,3 +21,6 @@ the appropriate kind of key.
 3. The feather (or Pico if that's what you're using) will want to connect to your PC as a storage device.  This doesn't hurt anything, but if you choose, there are ways to prevent that behaviour.
 4. The case in the 3mf folder was designed for my protoboard, so may not work for you.
 5. The key/paddle left and right are wired to A0 and A1, with sleeve of the jack going to ground.  Be sure to adapt the code to your wiring.
+6. The built-in LED flashes when the key is pressed.  This is an optional feature; it let's you know it's doing the business (hopefully).
+
+73!
