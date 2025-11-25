@@ -32,7 +32,7 @@ keyboard_layout = KeyboardLayoutUS(keyboard)
 led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 
-print("Waiting for key pin...")
+# print("Waiting for key pin...")
 while True:
 
     if not left_pin.value:  # pulled low?
