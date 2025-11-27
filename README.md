@@ -24,6 +24,6 @@ the appropriate kind of key.
 6. The built-in LED flashes when the key is pressed.  This is an optional feature; it lets you know it's doing the business (hopefully).
 
 Update:  version 0.02 uploaded, includes the correct (hopefully) implementation for iambic keying.  VBand provides the iambic A or B logic; it only needs to see the keypresses, and takes it from there.
-Thanks to K3FNB for pointing out the issue with v0.01.  Their implementation of basically the same concept is here, done on a Seeed Studio XIAO RP2040 is here:  https://k3fnb.com/posts/rp2040-vband-adapter
+Thanks to K3FNB for pointing out the issue with v0.01.  Their implementation of basically the same concept, done on a Seeed Studio XIAO RP2040 is here:  https://k3fnb.com/posts/rp2040-vband-adapter  Their code runs on the Adafruit Feather as well.
 
 73!
