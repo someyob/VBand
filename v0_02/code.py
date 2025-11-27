@@ -44,11 +44,8 @@ while True:
         keyboard.press(Keycode.RIGHT_BRACKET)
     else:
         keyboard.release(Keycode.RIGHT_BRACKET)
-    if left_key or right_key:
-        led.value = True
-    else:
-        led.value = False
-    #time.sleep(0.001)
+    led.value = left_key or right_key
+    # time.sleep(0.001)
  
   
     
